@@ -2,8 +2,8 @@ name: Verify Launchable tokenless authentication
 
 on:
   pull_request:
-    paths:
-      - gradle/**
+    branches:
+      - main
 
 env:
   LAUNCHABLE_ORGANIZATION: "defaulttm"
