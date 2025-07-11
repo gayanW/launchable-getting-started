@@ -33,4 +33,3 @@ jobs:
           pip3 install --user launchable~=1.0
           export PATH=~/.local/bin:$PATH
           launchable verify
-        working-directory: ./gradle
